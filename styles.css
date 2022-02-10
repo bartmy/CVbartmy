@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Saira+Semi+Condensed:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Neucha", cursive;
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+
+body {
+  background: #849ba7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.regular {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cv {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100px;
+  background: #a8af3c;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.cv .left_side {
+  position: relative;
+  background: #71cde4;
+  font-size: 16px;
+  padding: 20px;
+}
+.cv .right_side {
+  position: relative;
+  background: #e49571;
+  padding: 40px;
+}
+.left_side .profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.profile .profilePhoto {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  overflow: hidden;
+}
+.profile .profilePhoto img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left_side .content {
+  position: relative;
+  align-items: center;
+  /* padding: 20px; */
+}
+.content .content_item {
+  /* position: relative; */
+  padding: 15px;
+}
+.content .content_item .content_title #username {
+  /* position: relative; */
+  text-align: center;
+  font-size: 25px;
+}
+.content .content_item .content_title {
+  /* position: relative; */
+  text-align: center;
+  padding-bottom: 10px;
+}
+.content .content_item .content_list {
+  /* padding-bottom: 12px; */
+}
+.content .content_item .content_list .list_item {
+  /* color: lawngreen; */
+  padding: 2px;
+}
+.content .content_item .content_list .icon {
+  display: inline-block;
+}
+.content .content_item .content_list .data {
+  display: inline-block;
+  padding-left: 10px;
+}
+.content .content_item .content_table {
+  width: 100%;
+  padding: 5px;
+}
+.content .content_item .content_table tr td {
+  text-align: center;
+}
+.content .content_item .content_table .skill_name {
+  /* border-color: black; */
+}
+.content .content_item .content_table .skill_progress {
+  /* border-color: black; */
+}
+.content .content_item .content_table .skill_percentage {
+  /* border-color: black; */
+}
+.right_side .content_item h2 {
+  text-align: center;
+  font-size: 22px;
+}
