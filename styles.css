@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #849ba7;
+  background: #1e2224;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ body {
   width: 100%;
   max-width: 1000px;
   min-height: 100px;
-  background: #a8af3c;
+  background: #1a7a0d;
   display: grid;
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
@@ -40,13 +40,13 @@ body {
 }
 .cv .left_side {
   position: relative;
-  background: #71cde4;
+  background: #1b2979d8;
   font-size: 16px;
   padding: 20px;
 }
 .cv .right_side {
   position: relative;
-  background: #e49571;
+  background: #044c52;
   padding: 40px;
 }
 .left_side .profile {
@@ -75,51 +75,73 @@ body {
 .left_side .content {
   position: relative;
   align-items: center;
-  /* padding: 20px; */
 }
 .content .content_item {
-  /* position: relative; */
-  padding: 15px;
-}
-.content .content_item .content_title #username {
-  /* position: relative; */
-  text-align: center;
-  font-size: 25px;
+  padding-bottom: 15px;
 }
 .content .content_item .content_title {
-  /* position: relative; */
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+}
+.content .content_item .content_title #username {
+  font-size: 25px;
 }
 .content .content_item .content_list {
-  /* padding-bottom: 12px; */
+  padding-left: 25;
 }
 .content .content_item .content_list .list_item {
-  /* color: lawngreen; */
-  padding: 2px;
+  padding-bottom: 2px;
 }
-.content .content_item .content_list .icon {
+.content .content_item .content_list .list_item .icon {
   display: inline-block;
 }
-.content .content_item .content_list .data {
+.content .content_item .content_list .list_item .data {
   display: inline-block;
   padding-left: 10px;
 }
 .content .content_item .content_table {
+  table-layout: fixed;
   width: 100%;
   padding: 5px;
 }
 .content .content_item .content_table tr td {
   text-align: center;
+  padding: 3px;
 }
-.content .content_item .content_table .skill_name {
-  /* border-color: black; */
+.content_table .skill_progress {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #a71717;
+  display: block;
 }
-.content .content_item .content_table .skill_progress {
-  /* border-color: black; */
+.content_table .skill_progress span {
+  position: relative;
+
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #17a75f;
+  display: block;
 }
-.content .content_item .content_table .skill_percentage {
-  /* border-color: black; */
+.content .content_item .lang_name {
+  
+}
+.content_item .lang_progress {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #a71717;
+  display: block;
+}
+.content_item .lang_progress span {
+  position: relative;
+
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #17a75f;
+  display: block;
 }
 .right_side .content_item h2 {
   text-align: center;
