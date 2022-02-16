@@ -108,6 +108,18 @@ body {
   text-align: center;
   padding: 3px;
 }
+.job .job_name {
+  display: inline-block;
+  padding-right: 10px;
+}
+.job .location,
+.job .icon {
+  display: inline-block;
+  padding-left: 3px;
+}
+.job .job_description li {
+  padding-left: 10px;
+}
 .progress {
   position: relative;
   width: 100%;
@@ -127,4 +139,9 @@ body {
 .right_side .content_item h2 {
   text-align: center;
   font-size: 22px;
+}
+.right_side .content_item {
+  position: relative;
+  align-items: center;
+  padding-bottom: 25px;
 }
