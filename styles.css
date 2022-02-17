@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #1e2224;
+  background: #212a35;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,13 +40,13 @@ body {
 }
 .cv .left_side {
   position: relative;
-  background: #1b2979d8;
+  background: #7ca8f2;
   font-size: 16px;
   padding: 20px;
 }
 .cv .right_side {
   position: relative;
-  background: #044c52;
+  background: #54bfdb;
   padding: 40px;
 }
 .left_side .profile {
@@ -108,23 +108,31 @@ body {
   text-align: center;
   padding: 3px;
 }
-.job .job_name {
-  display: inline-block;
+.content_item .content_table p {
+  font-size: 12px;
+}
+.content_item .item {
+  padding-bottom: 20px;
+}
+.item .item_name {
+  font-weight: 700;
   padding-right: 10px;
 }
-.job .location,
-.job .icon {
+.item .location,
+.item .icon,
+.item .dates {
   display: inline-block;
-  padding-left: 3px;
+  font-size: 75%;
+  padding-right: 3px;
 }
-.job .job_description li {
+.item .description li {
   padding-left: 10px;
 }
 .progress {
   position: relative;
   width: 100%;
   height: 6px;
-  background: #a71717;
+  background: #adb2eb;
   display: block;
 }
 .progress span {
@@ -133,7 +141,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #17a75f;
+  background: #5c6beb;
   display: block;
 }
 .right_side .content_item h2 {
